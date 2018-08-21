@@ -13,3 +13,8 @@ client.on('message', message => {
 });
 
 client.user.setActivity(`Working hard to earn byts!`);
+
+
+
+// THIS  MUST  BE  THIS  WAY
+client.login(process.env.BOT_TOKEN);
