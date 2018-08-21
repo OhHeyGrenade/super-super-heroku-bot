@@ -3,6 +3,8 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
+    
+    bot.user.setGame('Earning byts!; Bot Built by Shocky')
 });
 
 client.on('message', message => {
