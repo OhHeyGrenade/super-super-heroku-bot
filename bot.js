@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
+    if (message.content === '/joke') {
+    	message.reply('yo mama so fat that when she joined the discord server, she broke it. OHHHHHHHHHHH!!');
   	}
 });
 
